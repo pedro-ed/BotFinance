@@ -37,6 +37,8 @@ def executeBot(invest,par,direcao,timeframe,id_bot,name):
     report = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     x = True
     inv = 2
+    inicio = datetime.now().hour
+    reconection = inicio+2
     while executar:
         confirmado = ""
         horario = datetime.now()
@@ -85,6 +87,9 @@ def executeBot(invest,par,direcao,timeframe,id_bot,name):
                     
         else:
             time.sleep(1)
+        if datetime.now().hour == reconection:
+            connect()
+            reconection = datetime.now().hour + 2
 
 
 
