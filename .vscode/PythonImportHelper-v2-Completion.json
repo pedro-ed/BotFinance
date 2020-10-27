@@ -1,0 +1,301 @@
+[
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {
+            "value": "\n```python\nimport colorama\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {
+            "value": "\n```python\nimport colorama\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {
+            "value": "\n```python\nimport colorama\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {
+            "value": "\n```python\nimport colorama\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {
+            "value": "\n```python\nimport colorama\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {
+            "value": "\n```python\nimport colorama\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "comprar",
+        "importPath": "iq",
+        "description": "iq",
+        "isExtraImport": true,
+        "detail": "iq",
+        "documentation": {
+            "value": "\n```python\nimport iq\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "connect",
+        "importPath": "iq",
+        "description": "iq",
+        "isExtraImport": true,
+        "detail": "iq",
+        "documentation": {
+            "value": "\n```python\nimport iq\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "vender",
+        "importPath": "iq",
+        "description": "iq",
+        "isExtraImport": true,
+        "detail": "iq",
+        "documentation": {
+            "value": "\n```python\nimport iq\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "pyiqoptionapi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyiqoptionapi",
+        "description": "pyiqoptionapi",
+        "detail": "pyiqoptionapi",
+        "documentation": {
+            "value": "\n```python\nimport pyiqoptionapi\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "IQOption",
+        "importPath": "pyiqoptionapi",
+        "description": "pyiqoptionapi",
+        "isExtraImport": true,
+        "detail": "pyiqoptionapi",
+        "documentation": {
+            "value": "\n```python\nimport pyiqoptionapi\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {
+            "value": "\n```python\nimport datetime\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {
+            "value": "\n```python\nimport datetime\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {
+            "value": "\n```python\nimport datetime\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {
+            "value": "\n```python\nimport time\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {
+            "value": "\n```python\nimport time\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {
+            "value": "\n```python\nimport json\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {
+            "value": "\n```python\nimport logging\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {
+            "value": "\n```python\nimport sys\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "investimento",
+        "kind": 5,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "investimento = 2\nexecutar=True\nprejuizo = 0\ni=0\nwhile executar:\n    i+=1\n    inv = investimento+prejuizo\n    lucro = vender(invest=inv,par=\"EURUSD\")\n    lucro = int(lucro)\n    if lucro > 0:",
+        "detail": "bot",
+        "documentation": {
+            "value": "\n```python\nfrom bot import investimento\n```\n\n```python\n\n\n```\n\n```python\ninvestimento = 2\nexecutar=True\nprejuizo = 0\ni=0\nwhile executar:\n    i+=1\n    inv = investimento+prejuizo\n    lucro = vender(invest=inv,par=\"EURUSD\")\n    lucro = int(lucro)\n    if lucro > 0:\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "prejuizo",
+        "kind": 5,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "prejuizo = 0\ni=0\nwhile executar:\n    i+=1\n    inv = investimento+prejuizo\n    lucro = vender(invest=inv,par=\"EURUSD\")\n    lucro = int(lucro)\n    if lucro > 0:\n       prejuizo = 0\n       print(Fore.GREEN+\"OPERAÇÃO GANHADORA\"+Fore.BLUE+str(lucro),\"                 \")",
+        "detail": "bot",
+        "documentation": {
+            "value": "\n```python\nfrom bot import prejuizo\n```\n\n```python\n\n\n```\n\n```python\nprejuizo = 0\ni=0\nwhile executar:\n    i+=1\n    inv = investimento+prejuizo\n    lucro = vender(invest=inv,par=\"EURUSD\")\n    lucro = int(lucro)\n    if lucro > 0:\n       prejuizo = 0\n       print(Fore.GREEN+\"OPERAÇÃO GANHADORA\"+Fore.BLUE+str(lucro),\"                 \")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "historico",
+        "kind": 5,
+        "importPath": "hist",
+        "description": "hist",
+        "peekOfCode": "historico = ['verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'cinza', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'cinza', 'vermelha', 'verde', 'cinza', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'cinza', 'vermelha', 'vermelha', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'cinza', 'cinza', 'verde', 'cinza', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'cinza', 'cinza', 'vermelha', 'verde', 'cinza', 'vermelha', 'cinza', 'vermelha', 'cinza', 'cinza', 'verde', 'cinza', 'cinza', 'vermelha', 'cinza', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'cinza', 'verde', 'cinza', 'cinza', 'verde', 'cinza', 'cinza', 'vermelha', 'verde', 'cinza', 'cinza', 'vermelha', 'verde', 'cinza', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'vermelha', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'cinza', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'cinza', 'verde', 'verde', 'cinza', 'verde', 'cinza', 'verde', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'cinza', 'cinza', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'verde', 'cinza', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'cinza', 'vermelha', 'cinza', 'verde', 'vermelha', 'cinza', 'cinza', 'verde', 'vermelha', 'cinza', 'verde', 'verde', 'vermelha', 'cinza', 'verde', 'verde', 'cinza', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'cinza', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'cinza', 'cinza', 'cinza', 'vermelha', 'verde', 'verde', 'cinza', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'cinza', 'vermelha', 'verde', 'vermelha', 'vermelha', 'cinza', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'cinza', 'verde', 'cinza', 'cinza', 'cinza', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'cinza', 'verde', 'vermelha', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'cinza', 'verde', 'verde', 'vermelha', 'cinza', 'cinza', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'cinza', 'cinza', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'cinza', 'vermelha', 'verde', 'verde', 'cinza', 'cinza', 'cinza', 'cinza', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'cinza', 'verde', 'cinza', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'cinza', 'verde', 'cinza', 'verde', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'cinza', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'verde', 'cinza', 'cinza', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'cinza', 'cinza', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'cinza', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha']",
+        "detail": "hist",
+        "documentation": {
+            "value": "\n```python\nfrom hist import historico\n```\n\n```python\n\n\n```\n\n```python\nhistorico = ['verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'cinza', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'cinza', 'vermelha', 'verde', 'cinza', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'cinza', 'vermelha', 'vermelha', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'cinza', 'cinza', 'verde', 'cinza', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'cinza', 'cinza', 'vermelha', 'verde', 'cinza', 'vermelha', 'cinza', 'vermelha', 'cinza', 'cinza', 'verde', 'cinza', 'cinza', 'vermelha', 'cinza', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'cinza', 'verde', 'cinza', 'cinza', 'verde', 'cinza', 'cinza', 'vermelha', 'verde', 'cinza', 'cinza', 'vermelha', 'verde', 'cinza', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'vermelha', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'cinza', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'cinza', 'verde', 'verde', 'cinza', 'verde', 'cinza', 'verde', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'cinza', 'cinza', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'verde', 'cinza', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'cinza', 'vermelha', 'cinza', 'verde', 'vermelha', 'cinza', 'cinza', 'verde', 'vermelha', 'cinza', 'verde', 'verde', 'vermelha', 'cinza', 'verde', 'verde', 'cinza', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'cinza', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'cinza', 'cinza', 'cinza', 'vermelha', 'verde', 'verde', 'cinza', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'cinza', 'vermelha', 'verde', 'vermelha', 'vermelha', 'cinza', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'cinza', 'verde', 'cinza', 'cinza', 'cinza', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'cinza', 'verde', 'vermelha', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'cinza', 'verde', 'verde', 'vermelha', 'cinza', 'cinza', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'cinza', 'cinza', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'cinza', 'vermelha', 'verde', 'verde', 'cinza', 'cinza', 'cinza', 'cinza', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'cinza', 'verde', 'cinza', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'cinza', 'verde', 'cinza', 'verde', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'cinza', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'vermelha', 'vermelha', 'cinza', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'verde', 'cinza', 'cinza', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'cinza', 'cinza', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'cinza', 'verde', 'vermelha', 'cinza', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'cinza', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'vermelha', 'vermelha', 'cinza', 'verde', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'vermelha', 'verde', 'vermelha', 'verde', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'cinza', 'verde', 'vermelha', 'verde', 'vermelha', 'vermelha', 'verde', 'verde', 'vermelha', 'verde', 'verde', 'vermelha']\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "connect",
+        "kind": 2,
+        "importPath": "iq",
+        "description": "iq",
+        "peekOfCode": "def connect():\n    init(autoreset=True)\n    #LOGIN\n    logging.basicConfig(format='%(asctime)s %(message)s')\n    global api\n    api = IQOption(\"pedroadv991@gmail.com\", \"pedropedroka\")\n    api.connect()\n    api.change_balance('PRACTICE')#PRACTICE \\ REAL\n    if api.check_connect():\n        return True",
+        "detail": "iq",
+        "documentation": {
+            "value": "\n```python\nfrom iq import connect\n```\n\n```python\n\n\n```\n\n```python\ndef connect():\n    init(autoreset=True)\n    #LOGIN\n    logging.basicConfig(format='%(asctime)s %(message)s')\n    global api\n    api = IQOption(\"pedroadv991@gmail.com\", \"pedropedroka\")\n    api.connect()\n    api.change_balance('PRACTICE')#PRACTICE \\ REAL\n    if api.check_connect():\n        return True\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "comprar",
+        "kind": 2,
+        "importPath": "iq",
+        "description": "iq",
+        "peekOfCode": "def comprar(invest,par):\n    entrada = invest\n    direcao = 'call'\n    timeframe = 1\n    status,id = api.buy(entrada, par, direcao, timeframe)\n    if status:\n        resultado = api.check_win_v3(id)\n        return(resultado)\n    else:\n        return(status)",
+        "detail": "iq",
+        "documentation": {
+            "value": "\n```python\nfrom iq import comprar\n```\n\n```python\n\n\n```\n\n```python\ndef comprar(invest,par):\n    entrada = invest\n    direcao = 'call'\n    timeframe = 1\n    status,id = api.buy(entrada, par, direcao, timeframe)\n    if status:\n        resultado = api.check_win_v3(id)\n        return(resultado)\n    else:\n        return(status)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "vender",
+        "kind": 2,
+        "importPath": "iq",
+        "description": "iq",
+        "peekOfCode": "def vender(invest,par):\n    entrada = invest\n    direcao = 'put'\n    timeframe = 1\n    status,id = api.buy(entrada, par, direcao, timeframe)\n    if status:\n        resultado = api.check_win_v3(id)\n        return(resultado)\n    else:\n        return(status)",
+        "detail": "iq",
+        "documentation": {
+            "value": "\n```python\nfrom iq import vender\n```\n\n```python\n\n\n```\n\n```python\ndef vender(invest,par):\n    entrada = invest\n    direcao = 'put'\n    timeframe = 1\n    status,id = api.buy(entrada, par, direcao, timeframe)\n    if status:\n        resultado = api.check_win_v3(id)\n        return(resultado)\n    else:\n        return(status)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "api",
+        "kind": 5,
+        "importPath": "iq",
+        "description": "iq",
+        "peekOfCode": "api = ''\ndef connect():\n    init(autoreset=True)\n    #LOGIN\n    logging.basicConfig(format='%(asctime)s %(message)s')\n    global api\n    api = IQOption(\"pedroadv991@gmail.com\", \"pedropedroka\")\n    api.connect()\n    api.change_balance('PRACTICE')#PRACTICE \\ REAL\n    if api.check_connect():",
+        "detail": "iq",
+        "documentation": {
+            "value": "\n```python\nfrom iq import api\n```\n\n```python\n\n\n```\n\n```python\napi = ''\ndef connect():\n    init(autoreset=True)\n    #LOGIN\n    logging.basicConfig(format='%(asctime)s %(message)s')\n    global api\n    api = IQOption(\"pedroadv991@gmail.com\", \"pedropedroka\")\n    api.connect()\n    api.change_balance('PRACTICE')#PRACTICE \\ REAL\n    if api.check_connect():\n```\n",
+            "supportThemeIcons": false
+        }
+    }
+]
