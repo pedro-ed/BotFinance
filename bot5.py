@@ -149,6 +149,7 @@ def executeBot(invest,par,direcao,timeframe,id_bot,name):
     inv = 2
     inicio = datetime.now().hour
     reconection = inicio+2
+    initBalance = api.get_balance()
     while executar:
         confirmado = ""
         horario = datetime.now()
@@ -175,6 +176,7 @@ def executeBot(invest,par,direcao,timeframe,id_bot,name):
                 if confirmado:
                     direcao = "CALL" if HistVelas[0] == "vermelha" else "PUT"
                     if direcao == "CALL":
+                        inv= 3 
                         print(Fore.GREEN+f"{direcao} - PADRÃO ENCONTRADO {datetime.now().hour}:{datetime.now().minute}:{datetime.now().second}|{par}")
                         lucro = vender(invest=inv,par=par,timeframe=timeframe) if direcao == "PUT" else comprar(invest=inv,par=par,timeframe=timeframe)
                     else:
@@ -184,13 +186,16 @@ def executeBot(invest,par,direcao,timeframe,id_bot,name):
                         print("")
                     if lucro < 0:
                         for ciclo in range(8):
-                            inv = 2**ciclo+1
+                            inv = 3**ciclo+1
                             lucro = vender(invest=inv,par=par,timeframe=timeframe) if direcao == "PUT" else comprar(invest=inv,par=par,timeframe=timeframe)
                             if lucro > 0:
                                 break
                     break           
         else:
             time.sleep(1)
+        os.system('cls')
+        balanceAtual = api.get_balance()
+        print(balanceAtual-initBalance)
         if datetime.now().hour == reconection:
             connect()
             reconection = datetime.now().hour + 2

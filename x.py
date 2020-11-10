@@ -1,6 +1,13 @@
 payout=70
-for i in range(9+1):
+f = [0]
+x = 5
+for i in range(9):
+    v =0
+    f.append(v)
     if i>0:
-        v = 2**i
-        x = (100-payout)*v/100
-        print(i,"-",x+v,"|",v)
+        i = x
+        for i in range(len(f)-1):
+            v +=f[i]
+        
+        
+        print(f,v)
