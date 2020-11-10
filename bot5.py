@@ -184,12 +184,11 @@ def executeBot(invest,par,direcao,timeframe,id_bot,name):
                         print("")
                     if lucro < 0:
                         for ciclo in range(8):
-                            inv = 2**ciclo
+                            inv = 2**ciclo+1
                             lucro = vender(invest=inv,par=par,timeframe=timeframe) if direcao == "PUT" else comprar(invest=inv,par=par,timeframe=timeframe)
                             if lucro > 0:
                                 break
-                    break
-                    
+                    break           
         else:
             time.sleep(1)
         if datetime.now().hour == reconection:
@@ -224,6 +223,6 @@ except:
     notfy("Erro no bot","Por favor verificar")
 
 
-
+#12.470
 
 #websocket._exceptions.WebSocketConnectionClosedException
