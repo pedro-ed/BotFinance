@@ -1,4 +1,4 @@
-import iqLogin, iqOperation, GetCadle, GetPadrao, Timer, GetPares, time, GetProfit
+import iqLogin, iqOperation, GetCadle, GetPadrao, Timer, GetPares, time, GetProfit,Log
 #Login na IQ
 api = iqLogin.login()
 count = 0
@@ -41,8 +41,12 @@ while True:
                     break
             #Perda:RECUPERAÇÃO
             if result < 0:
+                print(f"Operação Perdedora - {result}")
+                Log.AddLog(result,0,False)
                 iqOperation.Recuperation(api,result,CicloMax,par,action,valorBase,timeframe,profit)
             #Ganho
             if result > 0:
+                print(f"Operação Vitoriosa - {result}");
+                Log.AddLog(result,0,False)
                 pass
 
