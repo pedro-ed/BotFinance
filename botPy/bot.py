@@ -1,3 +1,9 @@
+import iqLogin
+
+
+iqLogin.login()
+
+exit()
 from pyiqoptionapi import IQOption
 import pyiqoptionapi
 import datetime
