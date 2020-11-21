@@ -32,21 +32,24 @@ while True:
     if profit > profitMin:
         par = confirmados[0][0]
         action = confirmados[0][1]
+        #Gerar Lista
+        LtValue = iqOperation.GT(profit,CicloMax,valorBase)
         #Executar operação
         if len(confirmados)>0:
-            while True:
-                result=iqOperation.action(api,action,par,timeframe,valorBase)
-                #Empate
-                if result!=0:
-                    break
-            #Perda:RECUPERAÇÃO
-            if result < 0:
-                print(f"Operação Perdedora - {result}")
-                Log.AddLog(result,0,False)
-                iqOperation.Recuperation(api,result,CicloMax,par,action,valorBase,timeframe,profit)
-            #Ganho
-            if result > 0:
-                print(f"Operação Vitoriosa - {result}");
-                Log.AddLog(result,0,False)
-                pass
+            for value in LtValue:
+                #Empate value == 0
+                doji = True
+                while doji:
+                    result=iqOperation.action(api,action,par,timeframe,value)
+                    doji = False if result == 0 else True
+                # GANHOU
+                if LtValue.index(value)>0:
+                    Log.AddLog(result,LtValue.index(value)+1,True,action,value)
+                else:
+                    Log.AddLog(result,LtValue.index(value)+1,True,action,value)
+                #Maximo de tentativas de recuperação
+                if LtValue.index(value) == CicloMax-1:
+                    pass
+
+
 

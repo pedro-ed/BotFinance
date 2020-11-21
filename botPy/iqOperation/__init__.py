@@ -31,11 +31,11 @@ def action(api,action,par,timeframe,invest):
         return(resultado)
     else:
         return(status)
-def GT(profit,max):
+def GT(profit,max,valueBase):
     pass
-    valor = [2]
+    valor = [valueBase]
     LtRecuperation = []
-    vb = 2
+    vb = valueBase
     pt = profit
     for i in range(max):
         t=0
@@ -70,3 +70,8 @@ def Recuperation(api,result,max,par,action,invest,timeframe,profit):
         if count == Totalciclos:
             print(f"Valor não recuperado")
 
+
+
+
+
+print(GT(100,7,3))

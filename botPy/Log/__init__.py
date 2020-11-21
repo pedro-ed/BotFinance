@@ -1,6 +1,8 @@
 import os
 import datetime
-def AddLog(lucro,cicloRec,recuperacao):
+import requests
+import json
+def AddLog(lucro,cicloRec,recuperacao,direcao,value):
     resultado = 'win' if lucro > 0 else 'loss'
     if recuperacao:
       resultado = "recuperacao"
@@ -8,13 +10,25 @@ def AddLog(lucro,cicloRec,recuperacao):
     date = f"{hoje.day}/{hoje.month}/{hoje.year}"
     hora = f"{hoje.hour}:{hoje.minute}:{hoje.second}"
     data = ""
-    log = f"{date},{hora},{resultado},{lucro},{cicloRec}"
-    varsystemCSV = r"%updcsv%"
-    # path ='Log\log.csv'
-    path = 'C:\IQBOTDATABASE\log.csv'
-    with open(path,'r') as file:
-        data = file.read()
+    log = f"{date},{hora},{resultado},{lucro},{cicloRec},{direcao}"
+    url = "https://apibots-937d3.firebaseio.com/Botmanager/Logs.json"
 
-    with open(path,'w') as file:
-        file.write(data+'\n'+log)
-    os.system(varsystemCSV)
+    payload = {
+		"id":round(int(hoje.day+hoje.second+hoje.hour+hoje.minute)),
+		"data":f"{date}",
+		"hora":f"{hora}",
+		"resultado":resultado,
+		"lucro":lucro,
+		"direcao":direcao,
+        "investiment":value
+    }
+    payload = json.dumps(payload)
+    headers = {'Content-Type': 'application/json'}
+    response = requests.request("POST", url, data=payload, headers=headers)
+    if response.status_code == 200:
+        return True
+    else:
+      return response.status_code
+
+
+
