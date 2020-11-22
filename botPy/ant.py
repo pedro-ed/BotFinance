@@ -21,5 +21,5 @@ for item in data:
         close = i['close']
     x+=1
 
-print(i)
+print(x)
 input("Precione enter")
