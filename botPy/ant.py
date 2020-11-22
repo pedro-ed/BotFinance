@@ -19,7 +19,7 @@ for item in data:
     for i in cd:
         opem = i['open']
         close = i['close']
-    x+=1
+        x+=1
 
 print(x)
 input("Precione enter")
