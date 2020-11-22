@@ -10,7 +10,8 @@ data =[]
 print("Pegando cadles")
 for par in pares:
     cadles = api.get_candles(par,1,1000,time.time())
-    data.append([x for x in cadles])
+    for m in cadles:
+        data.append(m)
 
 x = 0
 print("Calculando")
@@ -21,3 +22,4 @@ for item in data:
 
 print(x)
 input("Precione enter")
+
