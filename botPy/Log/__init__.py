@@ -31,4 +31,14 @@ def AddLog(lucro,cicloRec,recuperacao,direcao,value):
       return response.status_code
 
 
+from colorama import init,Fore,Back 
+init(autoreset=True)
 
+
+def LogAlert(msg,type):
+  print(Fore.LIGHTYELLOW_EX+f"[{type}] - {msg}")
+
+
+
+def LogInfo(msg,type):
+  print(Fore.LIGHTBLUE_EX+f"[{type}] - {msg}")

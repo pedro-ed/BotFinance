@@ -19,7 +19,7 @@ def AddLog(lucro,cicloRec,recuperacao):
 
     with open(path,'w') as file:
         file.write(data+'\n'+log)
-    os.system(varsystemCSV)
+    # os.system(varsystemCSV)
 
 def action(api,action,par,timeframe,invest):
     if action == "C":direcao = 'call' 
@@ -73,5 +73,3 @@ def Recuperation(api,result,max,par,action,invest,timeframe,profit):
 
 
 
-
-print(GT(100,7,3))
