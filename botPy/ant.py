@@ -22,3 +22,4 @@ for item in data:
     x+=1
 
 print(i)
+input("Precione enter")
