@@ -8,7 +8,7 @@ timeframe = 1
 sequenciaAlvo = 5
 CicloMax = 10
 profitMin = 50
-MomentAction = 48
+MomentAction = 52
 while True:
     # Aguardar Momento para opção
     Log.LogAlert("Aguardar Momento para opção",'INFO')
