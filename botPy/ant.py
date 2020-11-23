@@ -4,12 +4,16 @@ print(Timer.hora())
 
 par= 'EURNZD'
 print("Logando")
+api = iqLogin.login()
 
-x = iqOperation.GT(100,15,2)
-print(x)
+print("Reconnectando")
+
+api = iqLogin.Reconnect(api)
+if api.check_connect():
+  print("Reconectado com sucesso")
 exit()
 print("Pedando Pares")
-api = iqLogin.login()
+
 
 pares = GetPares.index(api,parAtivo=True)
 

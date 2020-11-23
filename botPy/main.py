@@ -1,7 +1,7 @@
 import iqLogin, iqOperation, GetCadle, GetPadrao, Timer, GetPares, time, GetProfit,Log
 #Login na IQ
 api = iqLogin.login()
-count = 0
+countRec = 0
 #___ Parametros ___
 valorBase = 2
 timeframe = 1
@@ -13,9 +13,9 @@ while True:
     # Aguardar Momento para opção
     Log.LogAlert("Aguardar Momento para opção",'INFO')
     Timer.SleepMoment(MomentAction)
-    count+=1
+    countRec+=1
     # Reconectar a cada 2H
-    if count>100:count=0;api=iqLogin.Reconnect()
+    if countRec>100:countRec=0;api=iqLogin.Reconnect(api)
     # Pesquisar Pares
     Log.LogInfo("   Pesquisar Pares",'INFO')
     pares = GetPares.index(api)
