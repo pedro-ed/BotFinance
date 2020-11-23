@@ -6,7 +6,7 @@ count = 0
 valorBase = 2
 timeframe = 1
 sequenciaAlvo = 5
-CicloMax = 7
+CicloMax = 10
 profitMin = 50
 while True:
     # Aguardar Momento para opção
