@@ -8,10 +8,11 @@ timeframe = 1
 sequenciaAlvo = 5
 CicloMax = 10
 profitMin = 50
+MomentAction = 48
 while True:
     # Aguardar Momento para opção
     Log.LogAlert("Aguardar Momento para opção",'INFO')
-    Timer.SleepMoment(54)
+    Timer.SleepMoment(MomentAction)
     count+=1
     # Reconectar a cada 2H
     if count>100:count=0;api=iqLogin.Reconnect()
