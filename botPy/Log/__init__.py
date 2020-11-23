@@ -2,6 +2,10 @@ import os
 import datetime
 import requests
 import json
+def hora():
+    agora = datetime.datetime.now()
+    return agora.strftime("%H:%M:%S")
+
 def AddLog(lucro,cicloRec,recuperacao,direcao,value):
     resultado = 'win' if lucro > 0 else 'loss'
     if recuperacao:
@@ -36,9 +40,9 @@ init(autoreset=True)
 
 
 def LogAlert(msg,type):
-  print(Fore.LIGHTYELLOW_EX+f"[{type}] - {msg}")
+  print(Fore.LIGHTYELLOW_EX+f"[{type} - {hora} ] => {msg}")
 
 
 
 def LogInfo(msg,type):
-  print(Fore.LIGHTBLUE_EX+f"[{type}] - {msg}")
+  print(Fore.LIGHTBLUE_EX+f"[{type} - {hora} ] => {msg}")

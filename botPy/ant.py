@@ -1,15 +1,16 @@
-import GetCadle, iqLogin,time,GetPares,iqOperation
+import GetCadle, iqLogin,time,GetPares,iqOperation,Timer
 
-
+print(Timer.hora())
 
 par= 'EURNZD'
 print("Logando")
-api = iqLogin.login()
 
-x = iqOperation.GT(50,8,2)
+x = iqOperation.GT(100,15,2)
 print(x)
 exit()
 print("Pedando Pares")
+api = iqLogin.login()
+
 pares = GetPares.index(api,parAtivo=True)
 
 
