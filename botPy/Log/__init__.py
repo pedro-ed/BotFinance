@@ -40,9 +40,9 @@ init(autoreset=True)
 
 
 def LogAlert(msg,type):
-  print(Fore.LIGHTYELLOW_EX+f"[{type} - {hora} ] => {msg}")
+  print(Fore.LIGHTYELLOW_EX+f"[{type} - {hora()} ] => {msg}")
 
 
 
 def LogInfo(msg,type):
-  print(Fore.LIGHTBLUE_EX+f"[{type} - {hora} ] => {msg}")
+  print(Fore.LIGHTBLUE_EX+f"[{type} - {hora()} ] => {msg}")
