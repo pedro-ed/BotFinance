@@ -9,13 +9,14 @@ sequenciaAlvo = 5
 CicloMax = 10
 profitMin = 50
 MomentAction = 52
+reconnectN = 100
 while True:
     # Aguardar Momento para opção
     Log.LogAlert("Aguardar Momento para opção",'INFO')
     Timer.SleepMoment(MomentAction)
     countRec+=1
     # Reconectar a cada 2H
-    if countRec>100:countRec=0;api=iqLogin.Reconnect(api)
+    if countRec>reconnectN:countRec=0;api=iqLogin.Reconnect(api)
     # Pesquisar Pares
     Log.LogInfo("   Pesquisar Pares",'INFO')
     pares = GetPares.index(api)
@@ -42,6 +43,7 @@ while True:
         Log.LogInfo("   Gerar Lista",'INFO')
         LtValue = iqOperation.GT(profit,CicloMax,valorBase)
         #Executar operação
+        
         Log.LogInfo("   Executar operação",'INFO')
         if len(confirmados)>0:
             for value in LtValue:
