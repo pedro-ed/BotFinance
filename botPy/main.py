@@ -12,24 +12,24 @@ MomentAction = 52
 reconnectN = 100
 while True:
     # Aguardar Momento para opção
-    Log.LogAlert("Aguardar Momento para opção",'INFO')
+    # Log.LogAlert("Aguardar Momento para opção",'INFO')
     Timer.SleepMoment(MomentAction)
     countRec+=1
     # Reconectar a cada 2H
     if countRec>reconnectN:countRec=0;api=iqLogin.Reconnect(api)
     # Pesquisar Pares
-    Log.LogInfo("   Pesquisar Pares",'INFO')
+    # Log.LogInfo("   Pesquisar Pares",'INFO')
     pares = GetPares.index(api)
     RelatVelas = []
     # Capturar Sequencias 
-    Log.LogInfo("   Capturar Sequencias",'INFO')
+    # Log.LogInfo("   Capturar Sequencias",'INFO')
     for par in pares:velas = GetCadle.getCandle(api,sequenciaAlvo,time.time(),timeframe,par);RelatVelas.append([par,velas])
     #Analizo as sequenciar procurando por Padrão alvo
-    Log.LogInfo("   procurando por Padrão alvo",'INFO')
+    # Log.LogInfo("   procurando por Padrão alvo",'INFO')
     confirmados = GetPadrao.indentificar(RelatVelas)
     profit = 0
     # Verificando profits
-    Log.LogInfo("   Verificando profits",'INFO')
+    # Log.LogInfo("   Verificando profits",'INFO')
     for i in confirmados:
         p = i[0]
         profitReq = GetProfit.index(api,p)
@@ -40,18 +40,17 @@ while True:
         par =   confirmados[0][0]
         action = confirmados[0][1]
         #Gerar Lista
-        Log.LogInfo("   Gerar Lista",'INFO')
+        # Log.LogInfo("   Gerar Lista",'INFO')
         LtValue = iqOperation.GT(profit,CicloMax,valorBase)
         #Executar operação
         
-        Log.LogInfo("   Executar operação",'INFO')
+        # Log.LogInfo("   Executar operação",'INFO')
         if len(confirmados)>0:
             for value in LtValue:
                 #Empate value == 0
                 doji = True
                 while doji:
                     result=iqOperation.action(api,action,par,timeframe,value)
-                    Log.LogAlert(f"  Valor investido: {value}",'INFO')
                     doji = True if result == 0 else False
                 # GANHOU
                 if LtValue.index(value)>0:
@@ -62,6 +61,9 @@ while True:
                 if LtValue.index(value) == CicloMax-1:
                     pass
                 if result > 0:
+                    Log.LogAlert(f"Operação Vitoriosa: {value}",'INFO','verde')
+                    print(r'\n')
                     break
+                Log.LogAlert(f"Recuperando: {value}",'INFO','amarelo')
 
 
