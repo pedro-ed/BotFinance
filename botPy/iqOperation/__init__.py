@@ -31,7 +31,7 @@ def action(api,action,par,timeframe,invest):
         return(resultado)
     else:
         return(status)
-def GT(profit,max,valueBase):
+def GT(profit,max,valueBase,add=0):
     pass
     valor = [valueBase]
     LtRecuperation = []
@@ -41,7 +41,7 @@ def GT(profit,max,valueBase):
         t=0
         for c in valor:
             t+=c
-        x = ((100-pt)*valor[i]/100)+valor[i]
+        x = ((100-pt)*(valor[i])/100)+valor[i]
         LtRecuperation.append(x)
         valor.append(t+vb)
     return LtRecuperation
