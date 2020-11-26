@@ -62,7 +62,6 @@ while True:
                     pass
                 if result > 0:
                     Log.LogAlert(f"Operação Vitoriosa: {value}",'INFO','verde')
-                    print(r'\n')
                     break
                 Log.LogAlert(f"Recuperando: {value}",'INFO','amarelo')
 
