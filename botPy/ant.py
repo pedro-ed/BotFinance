@@ -1,6 +1,12 @@
 import GetCadle, iqLogin,time,GetPares,iqOperation,Timer,json
 
 
+x = iqOperation.GT(90,10,3)
+print(x)
+
+
+
+exit()
 print(Timer.hora())
 
 par= 'EURNZD'

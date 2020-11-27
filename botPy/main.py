@@ -3,7 +3,7 @@ import iqLogin, iqOperation, GetCadle, GetPadrao, Timer, GetPares, time, GetProf
 api = iqLogin.login()
 countRec = 0
 #___ Parametros ___
-valorBase = 5
+valorBase = 3
 timeframe = 1
 sequenciaAlvo = 5
 CicloMax = 10
