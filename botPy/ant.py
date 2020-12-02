@@ -1,7 +1,7 @@
 import GetCadle, iqLogin,time,GetPares,iqOperation,Timer,json
 
 
-x = iqOperation.GT(90,10,3)
+x = iqOperation.GT(100,10,2)
 print(x)
 
 
