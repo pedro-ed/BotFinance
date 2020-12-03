@@ -1,8 +1,58 @@
 import GetCadle, iqLogin,time,GetPares,iqOperation,Timer,json
+from datetime import datetime
+from dateutil import tz
+
+def timestamp_data(x,separador): # Função para converter timestamp
+	hora = datetime.strptime(datetime.utcfromtimestamp(x).strftime('%Y'+separador+'%m'+separador+'%d'), '%Y'+separador+'%m'+separador+'%d')
+	# hora = hora.replace(tzinfo=tz.gettz('GMT'))	
+	return str(hora)[:-6]
 
 
-x = iqOperation.GT(100,10,2)
-print(x)
+def timestamp_hora(x,separador): # Função para converter timestamp
+	hora = datetime.strptime(datetime.utcfromtimestamp(x).strftime('%H'+separador+'%M'+separador+'%s'), '%H'+separador+'%M'+separador+'%s')
+	hora = hora.replace(tzinfo=tz.gettz('GMT'))	
+	return str(hora)[:-6]
+
+
+print(timestamp_data(1605726842,"/"))
+
+exit()
+# timestamp = 1605726842000
+# timestamp = 1545730073
+# dt_object = datetime.fromtimestamp(timestamp)
+# print("dt_object =", dt_object)
+# print("type(dt_object) =", type(dt_object))
+# exit()
+
+print("Logando")
+api = iqLogin.login()
+ 
+
+status,historico = api.get_position_history_v2('digital-option',3,0,0,0)
+import json
+from datetime import datetime
+dateHoje = datetime.now().strftime("%m/%d/%Y")
+lucroHoje = 0
+for item in historico['positions']:
+  FINAL_OPERACAO= item['close_time']
+  INICIO_OPERACAO= item['open_time']
+  LUCRO = item['close_profit']
+  ENTRADA = item['invest']
+  PARIDADE= item['raw_event']['instrument_underlying']
+  DIRECAO = item['raw_event']['instrument_dir']
+  VALOR = item['raw_event']['buy_amount']
+  date = datetime.fromtimestamp(int(str(INICIO_OPERACAO)[:10])).strftime("%m/%d/%Y")
+  hora = datetime.fromtimestamp(int(str(INICIO_OPERACAO)[:10])).strftime("%H:%M:%S")
+  print(dateHoje,date)
+  if dateHoje == date:
+    print("foi")
+    lucroHoje+=LUCRO
+    pass
+  break
+ 
+print(lucroHoje)
+
+
 
 
 
