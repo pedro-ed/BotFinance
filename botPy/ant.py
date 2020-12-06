@@ -2,6 +2,12 @@ import GetCadle, iqLogin,time,GetPares,iqOperation,Timer,json
 from datetime import datetime
 from dateutil import tz
 
+
+
+
+
+
+exit()
 def timestamp_data(x,separador): # Função para converter timestamp
 	hora = datetime.strptime(datetime.utcfromtimestamp(x).strftime('%Y'+separador+'%m'+separador+'%d'), '%Y'+separador+'%m'+separador+'%d')
 	# hora = hora.replace(tzinfo=tz.gettz('GMT'))	
