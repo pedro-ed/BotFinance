@@ -43,10 +43,15 @@ while True:
         # Log.LogInfo("   Gerar Lista",'INFO')
         LtValue = iqOperation.GT(profit,CicloMax,valorBase)
         #Executar operação
-        
         # Log.LogInfo("   Executar operação",'INFO')
         if len(confirmados)>0:
-            for value in LtValue:
+            values = [0]
+            #Ciclo de Execuções
+            for i in range(CicloMax):
+                #Definição de valor de investimento
+                value = sum(values)+valorBase
+                x = ((100-profit)*value/100)+value
+                values.append(value)
                 #Empate value == 0
                 doji = True
                 while doji:
@@ -57,9 +62,6 @@ while True:
                     Log.AddLog(result,LtValue.index(value)+1,True,action,value)
                 else:
                     Log.AddLog(result,LtValue.index(value)+1,False,action,value)
-                #Maximo de tentativas de recuperação
-                if LtValue.index(value) == CicloMax-1:
-                    pass
                 if result > 0:
                     Log.LogAlert(f"Operação Vitoriosa: {value}",'INFO','verde')
                     break

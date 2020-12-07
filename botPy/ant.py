@@ -2,8 +2,8 @@ import GetCadle, iqLogin,time,GetPares,iqOperation,Timer,json
 from datetime import datetime
 from dateutil import tz
 
-
-
+lt = iqOperation.GT(80,10,4)
+print(lt)
 
 
 
