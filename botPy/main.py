@@ -58,13 +58,10 @@ while True:
                     result=iqOperation.action(api,action,par,timeframe,value)
                     doji = True if result == 0 else False
                 # GANHOU
-                if LtValue.index(value)>0:
-                    Log.AddLog(result,LtValue.index(value)+1,True,action,value)
-                else:
                     Log.AddLog(result,LtValue.index(value)+1,False,action,value)
-                if result > 0:
-                    Log.LogAlert(f"Operação Vitoriosa: {value}",'INFO','verde')
-                    break
+                    if result > 0:
+                        Log.LogAlert(f"Operação Vitoriosa: {value}",'INFO','verde')
+                        break
                 Log.LogAlert(f"Recuperando: {value}",'INFO','amarelo')
 
 
