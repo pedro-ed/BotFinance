@@ -40,13 +40,8 @@ init(autoreset=True)
 
 
 def LogAlert(msg,type,cor):
-  if cor == 'amarelo':
-    print(Fore.LIGHTYELLOW_EX+f"[{type} - {hora()} ] => {msg}")
-  if cor == 'verde':
-    print(Fore.LIGHTGREEN_EX+f"[{type} - {hora()} ] => {msg}")
-  else:
-    print(Fore.LIGHTYELLOW_EX+f"[{type} - {hora()} ] => {msg}")
-
+  if cor == 'amarelo':print(Fore.LIGHTYELLOW_EX+f"[{type} - {hora()} ] => {msg}")
+  if cor == 'verde':print(Fore.LIGHTGREEN_EX+f"[{type} - {hora()} ] => {msg}")
 
 
 def LogInfo(msg,type):
